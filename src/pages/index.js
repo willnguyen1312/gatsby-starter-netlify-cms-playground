@@ -1,12 +1,12 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { Link, graphql } from "gatsby";
-import Layout from "../components/Layout";
+import React from 'react'
+import PropTypes from 'prop-types'
+import { Link, graphql } from 'gatsby'
+import Layout from '../components/Layout'
 
 export default class IndexPage extends React.Component {
   render() {
-    const { data } = this.props;
-    const { edges: posts } = data.allMarkdownRemark;
+    const { data } = this.props
+    const { edges: posts } = data.allMarkdownRemark
 
     return (
       <Layout>
@@ -18,7 +18,7 @@ export default class IndexPage extends React.Component {
             {posts.map(({ node: post }) => (
               <div
                 className="content"
-                style={{ border: "1px solid #333", padding: "2em 4em" }}
+                style={{ border: '1px solid #333', padding: '2em 4em' }}
                 key={post.id}
               >
                 <p>
@@ -41,7 +41,7 @@ export default class IndexPage extends React.Component {
           </div>
         </section>
       </Layout>
-    );
+    )
   }
 }
 
@@ -51,7 +51,7 @@ IndexPage.propTypes = {
       edges: PropTypes.array,
     }),
   }),
-};
+}
 
 export const pageQuery = graphql`
   query IndexQuery {
@@ -75,4 +75,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`;
+`
