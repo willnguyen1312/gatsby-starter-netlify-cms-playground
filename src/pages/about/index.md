@@ -1,19 +1,15 @@
 ---
-templateKey: 'about-page'
-path: /about
-title: About our values
+templateKey: about-page
+title: My name is Nam Nguyen and I speak Javascript
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+![My Avatar](/img/avatar.png "My Avatar")
 
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+### Philosophy
 
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
+😎 I am passionate about software development. I see how the Internet makes human's life a better place - and I want to be part of the solution. I am definitely a competitive person. I do all my best to make my dreams come true. Life is all about challenging and pushing ourselves. My strong motivation has always been driving me toward innovation. My favorite quote is "Stay hungry, stay foolish" - Steve Jobs. I love learning and developing myself, never be afraid of failing because failure is a success yet not fulfilled. That's how I make my life count ❤️
 
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
+### Contact
 
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+email: <a href="mailto:@nam.nguyen.node@gmail.com">nam.nguyen.node@gmail.com</a>
+
+tel: <a href="tel:+84943131292">+84943131292</a>
